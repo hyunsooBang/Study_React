@@ -1,0 +1,115 @@
+.hidden {
+    display: none;
+}
+
+/* 전체 페이지 스타일링 */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* 로그인 폼 스타일링 */
+  #login-form {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 시계 스타일링 */
+  #clock {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  /* 인사말 스타일링 */
+  #greeting {
+        font-size: 36px; 
+        font-family: "Cursive", sans-serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 그림자 효과 */
+        padding: 10px; 
+  }
+  
+
+  /* 배경 이미지 스타일 */
+  .background {
+        background-size: cover; /* 배경 이미지가 화면에 맞게 확대/축소되도록 설정 */
+        background-position: center; /* 배경 이미지 중앙 정렬 */
+        background-repeat: no-repeat; /* 배경 이미지 반복 없음 */
+        /*position: fixed; /* 배경 이미지 고정 */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1; /* 다른 내용 위에 위치하도록 설정 */
+  }
+  
+  /* To-Do 폼 스타일링 */
+  #todo-form {
+    margin-top: 20px;
+  }
+  
+  #todo-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+  
+  /* To-Do 리스트 스타일링 */
+  #todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #todo-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#f0f0f0;
+  }
+
+  /* 버튼 스타일링 */
+  button {
+    background-color: #333; 
+    color: #fff; 
+    border: none;
+    padding: 1px 5px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px; 
+  }
+  
+  /* 버튼 호버(마우스 오버) 스타일링 */
+  button:hover {
+    background-color: #FF874E; /* 호버 시 배경 색상 변경 */
+  }
+  
+  
+  /* 인용구 및 날씨 컨테이너 스타일링 */
+  #quote,
+  #weather {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color:#f0f0f0;
+  }
+  
+  #quote span,
+  #weather span {
+    margin: 5px 0;
+  }
+  
